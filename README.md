@@ -203,4 +203,4 @@ killed
 
 
 ## Issue Reporting
-If you have found any missing instructions or if you have updates request, please report them at this repository issues section.
+If you find any missing instructions or have updates requests, please raise PRs.
