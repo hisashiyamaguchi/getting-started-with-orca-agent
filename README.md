@@ -41,17 +41,17 @@ clusters:
 - cluster:
     certificate-authority-data: xxxx
     server: https://F6583E8B51DDC450B472217CBC031D67.gr7.us-east-1.eks.amazonaws.com
-  name: arn:aws:eks:us-east-1:927556698342:cluster/terraform-eks-demo
+  name: arn:aws:eks:us-east-1:xxxx:cluster/terraform-eks-demo
 contexts:
 - context:
-    cluster: arn:aws:eks:us-east-1:927556698342:cluster/terraform-eks-demo
-    user: arn:aws:eks:us-east-1:927556698342:cluster/terraform-eks-demo
-  name: arn:aws:eks:us-east-1:927556698342:cluster/terraform-eks-demo
-current-context: arn:aws:eks:us-east-1:927556698342:cluster/terraform-eks-demo
+    cluster: arn:aws:eks:us-east-1:xxxx:cluster/terraform-eks-demo
+    user: arn:aws:eks:us-east-1:xxxx:cluster/terraform-eks-demo
+  name: arn:aws:eks:us-east-1:xxxx:cluster/terraform-eks-demo
+current-context: arn:aws:eks:us-east-1:xxxx:cluster/terraform-eks-demo
 kind: Config
 preferences: {}
 users:
-- name: arn:aws:eks:us-east-1:927556698342:cluster/terraform-eks-demo
+- name: arn:aws:eks:us-east-1:xxxx:cluster/terraform-eks-demo
   user:
     exec:
       apiVersion: client.authentication.k8s.io/v1beta1
