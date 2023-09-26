@@ -125,6 +125,13 @@ threatoptix   to-monitor   1         1         1       1            1           
 ```
 <br>
 
+After successful installation, you can see Orca Agent information on the Orca Security UI. **It might take some hours to be shown.**
+<br>
+<div align="center">
+<img src="./img/4.png" width=70%>
+</div>
+<br>
+
 Let's create a sample pod - my sample pod look like this.
 ```
 $ cat sample-pod.yaml
